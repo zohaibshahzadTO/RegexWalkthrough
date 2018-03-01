@@ -76,3 +76,5 @@ See exampleTwo.java in the repository.
 
 The following class give several examples for the usage of regex with strings.
 See exampleThree.java.
+
+The JUnit tester class for all examples are included in another file in the repository.
