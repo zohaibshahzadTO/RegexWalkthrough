@@ -61,3 +61,18 @@ You can add the mode modifiers to the start of the regex. To specify multiple mo
 # Backslashes in Java
 
 The backslash is an escape character in Java strings. That means the backslash has a predefined meaning in Java. You have to use double backslash to define a single backslash. If you want to define \w, then you must be using \\w in your regex. If you want to use backslash as a literal, you have to type \\\\ as \ is also an escape character in regular expressions.
+
+--
+
+# Redefined methods on String for processing regular expressions
+
+Strings in Java have built-in support for regex. Strings have 4 built-in methods for regex, i.e., matches(), split(), replaceAll(), replaceFirst() methods. The replace() method does not support regex. These methods are not optimized for performance. Later on in this ReadME, we'll delve into classes that are optimized for performance.
+
+In the exampleTwo.java file, we'll create an example class to illustrate those methods.
+See exampleTwo.java in the repository.
+
+
+# Another Example
+
+The following class give several examples for the usage of regex with strings.
+See exampleThree.java.
