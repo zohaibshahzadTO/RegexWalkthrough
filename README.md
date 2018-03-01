@@ -41,3 +41,23 @@ You can group parts of your regular expression. In the pattern, we group element
 Via the $ you can refer to a group. $1 is the first group, $2 the second, etc.
 
 Let’s, for example, assume you want to replace all whitespace between a letter followed by a point or a comma. This would involve that the point or the comma is part of the pattern. Still it should be included in the result. See the regex file for this example.
+
+# Negative Look Ahead
+
+Negative look ahead provides the possibility to exclude a pattern. With this you can say that a string should not be followed by another string. Negative look ahead are defined via (?!pattern). For example, the following with match "a" if "a" is not followed by "b".
+
+*a(?!b)*
+
+# Specifying modes inside the regular expression
+
+You can add the mode modifiers to the start of the regex. To specify multiple modes, simply put them together as (?ismx).
+
+<li>(?i) makes the regex case insensitive.</li>
+
+<li>(?s) for "single line mode" makes the dot match all characters, including line breaks.</li>
+
+<li>(?m) for "multi-line mode" makes the caret and dollar match at the start and end of each line in the subject string.</li>
+
+# Backslashes in Java
+
+The backslash is an escape character in Java strings. That means the backslash has a predefined meaning in Java. You have to use double backslash to define a single backslash. If you want to define \w, then you must be using \\w in your regex. If you want to use backslash as a literal, you have to type \\\\ as \ is also an escape character in regular expressions.
