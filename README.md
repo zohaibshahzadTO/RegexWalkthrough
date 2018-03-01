@@ -32,3 +32,12 @@ The following meta characters have a pre-defined meaning and make certain common
 *Quantifiers*
 
 A quantifier defines how often an element can occur. The symbols ?, * , + and {} define the quantity of the regular expressions.
+
+
+# Grouping and back references
+
+You can group parts of your regular expression. In the pattern, we group element with round brackets, eg, (). This allows us to assign a repetition operator to a complete group. In addition these groups also create a back reference to the part of the regular expression. This captures the group. A back reference stores the part of the String which matched the group. This allows you to use this part in the replacement.
+
+Via the $ you can refer to a group. $1 is the first group, $2 the second, etc.
+
+Let’s, for example, assume you want to replace all whitespace between a letter followed by a point or a comma. This would involve that the point or the comma is part of the pattern. Still it should be included in the result. See the regex file for this example.
