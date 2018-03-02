@@ -78,3 +78,10 @@ The following class give several examples for the usage of regex with strings.
 See exampleThree.java.
 
 The JUnit tester class for all examples are included in another file in the repository.
+
+
+--
+
+# Pattern and Matcher
+
+For advanced regex, the *java.util.regex.Pattern* and *java.util.regex.Matcher* classes are used. First, we create a *Pattern* object which defines the regular expression. This Pattern object allows us to create a Matcher object for a given string. This Matcher object then allows us to do regex operations on a String.
