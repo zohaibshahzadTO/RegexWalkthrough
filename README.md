@@ -16,6 +16,8 @@ A simple example, for a regular expression is a (literal) string. For example, t
 
 The following table lists several regular expressions and describes which pattern they would match.
 
+![alt text](https://github.com/zohaibshahzadTO/RegexWalkthrough/blob/master/assets/figure1%20Regex.JPG)
+
 
 # Rules of Writing Regular Expressions
 
@@ -23,16 +25,21 @@ The following description is an overview of available meta characters which can 
 
 *Common Matching Symbols*
 
+![alt text](https://github.com/zohaibshahzadTO/RegexWalkthrough/blob/master/assets/figure2%20regex.JPG)
+
 
 *Meta Characters*
 
 The following meta characters have a pre-defined meaning and make certain common patterns easier to use, e.g., \d instead of [0..9]
+
+![alt text](https://github.com/zohaibshahzadTO/RegexWalkthrough/blob/master/assets/figure3%20regex.JPG)
 
 
 *Quantifiers*
 
 A quantifier defines how often an element can occur. The symbols ?, * , + and {} define the quantity of the regular expressions.
 
+![alt text](https://github.com/zohaibshahzadTO/RegexWalkthrough/blob/master/assets/figure4%20regex.JPG)
 
 # Grouping and back references
 
@@ -70,6 +77,8 @@ Strings in Java have built-in support for regex. Strings have 4 built-in methods
 
 In the exampleTwo.java file, we'll create an example class to illustrate those methods.
 See exampleTwo.java in the repository.
+
+![alt text](https://github.com/zohaibshahzadTO/RegexWalkthrough/blob/master/assets/figure5%20regex.JPG)
 
 
 # Another Example
